@@ -1,0 +1,40 @@
+body{
+	background-color: #dfcfc5;
+	font-family: verdana;
+	color: #5a534f;
+}
+
+header{
+	border: solid;
+	border-color: #b1a298 ;
+	border-radius: 15px;
+	background-color: #b1a298;
+	height: 200px;
+	width: 100%;
+}
+section{
+	border: solid;
+	border-color: #ddd5d0;
+	border-radius: 15px;
+	background-color: #ddd5d0;
+	width: 80%;
+	margin: 0 auto;
+}
+
+iframe{
+
+}
+
+footer{
+
+	border: solid;
+	border-color: #b1a298 ;
+	border-radius: 15px;
+	background-color: #b1a298;
+	height: 200px;
+	width: 100%;
+}
+
+footer h3 {
+	text-align: center;
+}
