@@ -8,10 +8,17 @@ header{
 	border: solid;
 	border-color: #b1a298 ;
 	border-radius: 15px;
-	background-color: #b1a298;
+	background-image: url(../img/banner.jpeg);
+	background-position: center;
+	background-size: cover;
 	height: 200px;
 	width: 100%;
 }
+
+header img{
+	width: 100%;
+}
+
 section{
 	border: solid;
 	border-color: #ddd5d0;
@@ -20,9 +27,28 @@ section{
 	width: 80%;
 	margin: 0 auto;
 }
+.conceptoimagen{
+	width: 40%;
+	margin-bottom: 20px;
+	border: solid;
+	border-radius: 10px;
+	border-color: blanchedalmond;
+	pointer-events: none;
+}
+
+.infoimagen{
+	width: 80%;
+	border: solid;
+	border-radius: 10px;
+	border-color: blanchedalmond;
+	pointer-events: none;
+}
 
 iframe{
 
+}
+main{
+	margin-top: 40px;
 }
 
 footer{
@@ -37,4 +63,29 @@ footer{
 
 footer h3 {
 	text-align: center;
+}
+nav{
+	background-color: #b1a298;
+	margin: 0 auto;
+	display: flex;
+	gap:40px;
+	padding: 10px;
+	justify-content: center;
+	border-radius: 10px;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: blanchedalmond;
+	font-weight: bold;
+	transition: 0.2s all linear;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+nav a:hover{
+	background-color: #5a534f;
+	transform: scale(1.06) ;
+	color: blanchedalmond;
 }
